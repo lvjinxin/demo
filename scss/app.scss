@@ -1,0 +1,52 @@
+@import "main.scss";
+.content{
+    text-align: center;
+    .select{
+        width: 130px;
+        height: 35px;
+        margin-right: 5px;
+    }
+    .inputinfo{
+        margin-right: 5px;
+    }
+    .first,.second,.third{
+        font-size: 18px;
+        font-weight: 900;
+        color: red;
+        margin-top: 20px;
+    }
+    .mylist{
+        position: absolute;
+        width: 800px;
+        height: 800px;
+        left: 50%;
+        margin-left: -400px;
+       
+    }
+    .mylist li{
+        position: relative;
+        width: 600px;
+        height:50px;
+        border-bottom: 1px solid #ccc;
+        background: bisque;
+        border-radius: 10px;
+        line-height: 50px;
+        left: 50%;
+        margin-left: -300px;
+    }
+  .delete{
+      float: right;
+      margin-right: 20px;
+      margin-top: 10px;
+  }
+   .mycontent{
+       float: left;
+       margin-left: 10px;
+   }
+   .edit{
+       float: right;
+       margin-top: 10px;
+       margin-right: 10px;
+   }
+    
+}
